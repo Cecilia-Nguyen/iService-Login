@@ -1,5 +1,5 @@
 const User = require('../model/User');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 module.exports.getRegister = (req, res, next) => {
 	res.render('index', { error: 'none' });
